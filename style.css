@@ -16,12 +16,12 @@ button {
     width: 80px;
 }
 
-.middle-content img {
+.second-section img {
     flex: auto;
     max-width: 500px;
 }
 
-.middle-content button {
+.second-section button {
     background-color: #3882F6;
     color:#F9FAF8;
     border-radius: 8px;
@@ -30,7 +30,7 @@ button {
     margin-top: 8px;
 }
 
-.middle-content {
+.second-section {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
@@ -77,4 +77,20 @@ button {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 100;
+}
+
+.third-section img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
 }

@@ -80,17 +80,35 @@ button {
 }
 
 .third-section img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10%;
 }
 
 .info {
     max-width: 200px;
+    padding-bottom: 96px;
+    font-size: 18px;
+    color: #929393;
 }
 
 .third-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
     justify-content: center;
     gap: 52px;
     text-align: center;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 32px;
+
 }

@@ -112,3 +112,25 @@ button {
     padding: 32px;
 
 }
+
+.fourth-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 128px;
+}
+
+.fourth-section .quote {
+    font-size: 36px;
+    font-weight: 100;
+    color:#1f2937;
+    max-width: 956px;
+}
+
+.fourth-section .author {
+    font-size: 18px;
+    font-weight: 600;
+    color:#1F2937;
+    padding:16px;
+}

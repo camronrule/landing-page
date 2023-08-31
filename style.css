@@ -19,6 +19,7 @@ button {
 .second-section img {
     flex: auto;
     max-width: 500px;
+    border: 5px solid salmon;
 }
 
 button {
@@ -83,6 +84,7 @@ button {
     max-width: 200px;
     max-height: 200px;
     border-radius: 7%;
+    border: 5px solid #3882f6;
 }
 
 .info {
